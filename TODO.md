@@ -1,0 +1,3 @@
+- search for TODO and finish them
+- add webpack for live server
+- decide about license

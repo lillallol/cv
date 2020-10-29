@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ilias Spanoudakhs CV</title>
+		<link rel="stylesheet" href="./index.css" />
+	</head>
+
+	<body>
+		<header>
+			<h1 class="text-align-center">
+				Ilias Spanoudakhs
+				<br />
+				<div class="minor-1-h1">
+					<a href="https://github.com/lillallol">github</a> |
+					<a href="https://www.npmjs.com/~lillallol">npm</a> |
+					spanoudos@hotmail.com
+				</div>
+				<div class="minor-2-h1">
+					<a href="https://en.wikipedia.org/wiki/Heraklion"
+						>Greece, island of Crete, Heraklion city</a
+					>
+				</div>
+			</h1>
+
+			<div></div>
+		</header>
+		<main>
+			<section>
+				<h2>Summary</h2>
+				<p>
+					I have been studying front end development for the last two years on
+					my own. I have no working experience in the field.
+				</p>
+			</section>
+
+			<section>
+				<h2>Projects</h2>
+				<ul>
+					<li>
+						<p>
+							<a href="https://www.npmjs.com/package/@lillallol/outline-pdf"
+								>outline-pdf</a
+							>
+							| ts, ts-jest, BDD, cspell, eslint, pdf-lib
+							<br />
+							A module I published to npm that adds outline to an outline-less
+							pdf. Has high level API and can make parts of the outline to be
+							collapsed by default. I had to read the pdf specification to
+							create this module.
+							<br />
+							Uses pdf-lib, which is a fast to download npm module that deals
+							with low level manipulation of pdf and works in both browser and
+							nodejs.
+							<br />
+							As far as I have searched there is no other module in the npm
+							registry that has the same characteristics.
+						</p>
+					</li>
+					<!--
+						<li>
+						DIC: My own dependency injection container created from scratch and
+						used in my projects| TS, Jest, BDD
+						<ul>
+							<li>
+								Components registered are functions that act like factories.
+							</li>
+							<li>
+								Option for transient or singleton lifecycle when registering
+								components.
+							</li>
+							<li>
+								Option for clearing memoization table for components with
+								singleton lifecycle (useful in tests where singletons act as
+								state).
+							</li>
+							<li>
+								Registration of component dependencies has to be done manually.
+							</li>
+							<li>Option for decorating advices when registering observers.</li>
+							<li>
+								Option for providing specific dependencies when requiring a
+								component.
+							</li>
+						</ul>
+					</li>
+					<li>
+						M of MVC: My own reactive model created from scratch and used in my
+						MVC framework| TS, Jest, BDD, SOLID, DIC
+						<ul>
+							<li>observable single source of truth as state</li>
+							<li>built in undo redo functionality</li>
+							<li>state mutated only through actions</li>
+							<li>
+								transactional-ity when informing observers about state changes
+							</li>
+							<li>heavily inspired from mobx library</li>
+							<li>
+								ability to choose which actions will be recorded for undo redo
+							</li>
+							<li>state diffing</li>
+							<li>
+								ability to undo redo a set of actions as a whole with the usage
+								of action children
+							</li>
+						</ul>
+					</li>
+					<li>
+						documentation-to-pdf: A nodejs script that uses puppeteer to automate as much as
+						possible the creation of an indexed pdf from website
+						documentations.| TS, JEST, BDD, SOLID, DIC, puppeteer, nodejs
+						<ul>
+							<li>
+								it offers an automatic way to extract the index of the pdf from
+								the navigation element of the documentation with some extra
+								options.
+							</li>
+							<li>
+								it offers many options on how each dom element will be converted
+								to pdf (scroll to trigger lazy-loading images, disable max width
+								and height etc.).
+							</li>
+							<li>
+								it has worked for the documentations found in the websites of :
+								Jest, webpack, mobx, react, typescript, vue, redux,
+								javascript.info, htmldog, prettier, lit-html, lit-element,
+								react-redux, preact, rxjs, babel, parcel, visual studio code,
+								cypress, npmjs, express.
+							</li>
+						</ul>
+					</li>
+					<li>
+						MVC : An MVC framework created from scratch using lit-html for
+						rendering| TS, JEST, BDD, SOLID, DIC
+						<ul>
+							<li>state persistence</li>
+						</ul>
+					</li> -->
+				</ul>
+			</section>
+
+			<section>
+				<h2>Technical skills</h2>
+				<ul>
+					<li><span class="emphasize">Languages:</span> HTML, CSS, JS, TS</li>
+					<li>
+						<span class="emphasize">Design principles & patterns:</span> SOLID,
+						BDD
+					</li>
+					<li>
+						<span class="emphasize">Libraries:</span>
+						<!-- Puppeteer, -->
+						ts-jest<!-- , MobX, lit-html -->
+					</li>
+					<!-- <li>Frameworks : -</li> -->
+					<li>
+						<span class="emphasize">Developer Tools:</span> VS code
+					</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Education</h2>
+				<ul>
+					<li>
+						<span class="emphasize">(2010 - 2016) bachelor:</span> in physics
+						from university of Crete
+					</li>
+					<li>
+						<span class="emphasize">(2014) erasmus:</span> in aberdeen scotland
+						for one semester
+					</li>
+					<li>
+						<span class="emphasize"
+							>(2014 - 2016) mandatory military service:</span
+						>
+						done
+					</li>
+					<li>
+						<span class="emphasize">(2016 - 2018) master:</span> in statistics
+						but did not mange to finish it because I was missing basic prerequisite knowledge
+					</li>
+					<li>
+						<span class="emphasize">(2018 - now) web development:</span> self
+						studying front end web development
+					</li>
+				</ul>
+			</section>
+
+			<footer>
+				Last update: 29 October 2020.<br>
+				Look here for an up to date version.
+			</footer>
+		</main>
+	</body>
+</html>

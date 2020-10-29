@@ -1,0 +1,4 @@
+{
+	"ignorePaths": ["node_module/**","package-lock.json"],
+	"ignoreWords": ["lillallol","npmjs","Spanoudakhs","Ilias","endregion","mobx","preact","htmldog","Heraklion"]
+}
